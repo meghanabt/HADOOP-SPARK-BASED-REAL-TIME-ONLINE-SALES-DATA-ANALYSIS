@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     spark = SparkSession \
         .builder \
-        .appName("Pyspark structured streaming with Kafka and Cassandra") \
+        .appName("Pyspark streaming with Kafka") \
         .master("local[*]") \
         .config("spark.jars",
                 "file:///home/hadoop/jars/spark-sql-kafka-0-10_2.12-3.1.1.jar,file:///home/hadoop/jars/kafka-clients-1.1.0.jar,file:///home/hadoop/jars/spark-streaming-kafka-0-10-assembly_2.12-3.0.0-preview2.jar,file:///home/hadoop/jars/mysql-connector-java-8.0.26.jar,file:///home/hadoop/jars/commons-pool2-2.6.2.jar,file:///home/hadoop/jars/spark-token-provider-kafka-0-10_2.12-3.0.1.jar") \
@@ -146,4 +146,3 @@ if __name__ == "__main__":
         .foreachBatch(saveto_mysqlTable) \
         .start()
     transDetail_WriteStream.awaitTermination()
-    print("Pyspark Structured Streaming with Kafka Demo Application Completed")
