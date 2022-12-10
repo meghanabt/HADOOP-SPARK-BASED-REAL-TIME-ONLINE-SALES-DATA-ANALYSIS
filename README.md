@@ -7,4 +7,5 @@ This project aims to compile real-time sales data for products sold across numer
 
 
 Project By,
+
 Meghana Bodapati ThirumalaNaidu and Pooja Honneshwari Ravi
