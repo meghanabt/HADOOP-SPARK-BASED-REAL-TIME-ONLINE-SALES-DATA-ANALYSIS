@@ -5,7 +5,3 @@ It's critical to examine reliable sales statistics. The ability to make decision
 
 This project aims to compile real-time sales data for products sold across numerous platforms in a number of states. The result produced shows the sales of each source in various states, which helps to improve cross-platform marketing strategies.
 
-
-Project By,
-
-Meghana Bodapati ThirumalaNaidu and Pooja Honneshwari Ravi
